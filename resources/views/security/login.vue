@@ -1,4 +1,5 @@
 <script setup lang="ts">
+
 useHead({
 	title: 'Sign in to Blue Bird',
 })
@@ -13,7 +14,7 @@ const login = useForm({
 })
 </script>
 
-<template>
+<template layout="login">
 	<section class="grid h-full place-items-center bg-gray-50">
 		<div class="grid w-full max-w-md place-items-center">
 			<i-bluebird-logo class="h-12 w-12 text-blue-500" />
